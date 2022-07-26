@@ -1,0 +1,16 @@
+{
+  "name": "vortex-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "vard005",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.1"
+  }
+}
