@@ -15,6 +15,9 @@ client.on('interactionCreate', async interaction => {
   if (interaction.commandName === 'ping') {
     await interaction.reply('Pong!');
   }
+  if (interaction.commandName === 'ip') {
+    await interaction.reply('Pong!');
+  }
 });
 
 client.login(process.env.TOKEN);

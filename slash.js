@@ -6,6 +6,10 @@ const commands = [
     name: 'ping',
     description: 'Replies with Pong!',
   },
+  {
+    name: 'ip',
+    description: 'Показать текущий ip-адресс сервера.',
+  },
 ];
 
 exports.init = function(token, client, guild) {
